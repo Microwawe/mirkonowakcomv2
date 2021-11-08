@@ -1,0 +1,19 @@
+{
+  "arrowParens": "avoid",
+  "semi": true,
+  "useTabs": true,
+  "tabWidth": 4,
+  "quoteProps": "preserve",
+  "singleQuote": true,
+  "printWidth": 100,
+  "htmlWhitespaceSensitivity": "ignore",
+  "overrides": [
+    {
+      "files": ["*.yml", "*.md"],
+      "options": {
+        "tabWidth": 2,
+        "useTabs": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+[
+	{
+		"public": true,
+		"title": "Mamba UI",
+		"description": "A collection of free Tailwind CSS components",
+		"img": "mamba-ui.png",
+		"demoUrl": "https://mambaui.com",
+		"codeUrl": "https://github.com/Microwawe/mamba-ui",
+		"technologies": ["Angular", "Tailwind CSS"],
+		"repository": "mamba-ui"
+	},
+	{
+		"public": true,
+		"title": "Tailwind CSS pseudo selectors -plugin",
+		"description": "Plugin for Tailwind CSS that adds all the different pseudo selectors as variants",
+		"img": "",
+		"demoUrl": "",
+		"codeUrl": "https://github.com/Microwawe/tailwindcss-pseudo-selectors",
+		"technologies": ["Tailwind CSS"],
+		"repository": "tailwindcss-pseudo-selectors"
+	},
+	{
+		"public": true,
+		"title": "Kaljakartta",
+		"description": "A Google Maps -based search-engine for beer lovers",
+		"img": "kaljakartta.png",
+		"demoUrl": "https://mirkonowak.be",
+		"codeUrl": "https://github.com/Microwawe/kaljakartta-archive",
+		"technologies": ["Javascript", "Java"],
+		"repository": ""
+	},
+	{
+		"public": true,
+		"title": "Portfolio",
+		"description": "This website! Which also happens to be the fourth iteration of my own personal portfolio.",
+		"img": "nowak_logo.png",
+		"demoUrl": "https://mirkonowak.com",
+		"codeUrl": "https://github.com/Microwawe",
+		"technologies": ["Nuxt.js", "Tailwind CSS"],
+		"repository": "Microwawe.github.io"
+	},
+	{
+		"public": false,
+		"title": "Titanic",
+		"description": "A website for the Titanic-cruise ",
+		"img": "titanic.png",
+		"demoUrl": "https://titanic-cruise-rvrmq.ondigitalocean.app/",
+		"codeUrl": "https://github.com/Microwawe/Titanic",
+		"technologies": ["jQuery", "Javascript", "PHP", "MySQL"],
+		"repository": "Titanic"
+	},
+	{
+		"public": false,
+		"title": "Minesweeper",
+		"description": "Small and simple minesweeper game ",
+		"img": "minesweeper.png",
+		"demoUrl": "https://minesweeper-3rd8b.ondigitalocean.app/",
+		"codeUrl": "https://github.com/Microwawe/Minesweeper",
+		"technologies": ["HTML, CSS, Javascript"],
+		"repository": "Minesweeper"
+	},
+	{
+		"public": false,
+		"title": "Tailwind CSS multi-column -plugin",
+		"description": "Plugin for Tailwind CSS that adds support for the multi-column properties ",
+		"img": "",
+		"demoUrl": "",
+		"codeUrl": "https://github.com/Microwawe/tailwindcss-multiple-columns",
+		"technologies": ["Tailwind CSS"],
+		"repository": "tailwindcss-multiple-columns"
+	},
+	{
+		"public": false,
+		"title": "Veikkaus",
+		"description": "Scrapes the number archives of Eurojackpot, Finnish Lotto and All-or-nothing from various sites",
+		"img": "",
+		"demoUrl": "",
+		"codeUrl": "https://github.com/Microwawe/veikkaus",
+		"technologies": ["Node.js", "Express", "Cheerio"],
+		"repository": ""
+	}
+]

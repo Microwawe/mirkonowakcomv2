@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="500" height="500"><svg width="500" height="500" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+ <defs>
+  <linearGradient id="SvgjsLinearGradient1010">
+   <stop id="SvgjsStop1009" offset="0" stop-color="#ff0000"></stop>
+   <stop id="SvgjsStop1008" offset="1" stop-color="#00ffff"></stop>
+  </linearGradient>
+ </defs>
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="SvgjsG1007"></g>
+  <rect fill="url(#svg_6)" fill-opacity="0" height="202.071332" id="SvgjsRect1006" stroke="#000000" stroke-width="34" transform="rotate(18.10580062866211 381.24293518066406,232.53648376464844)" width="1.520242" x="380.482809" y="131.500825"></rect>
+  <rect fill="url(#svg_6)" fill-opacity="0" height="133.879905" id="SvgjsRect1005" stroke="#000000" stroke-width="34" transform="rotate(24.50749969482422 116.59072494506836,331.0264129638672)" width="1.520242" x="115.830607" y="264.086442"></rect>
+  <rect fill="url(#svg_6)" fill-opacity="0" height="119.759241" id="SvgjsRect1004" stroke="#000000" stroke-width="34" transform="rotate(-38.38249969482422 247.00402069091797,306.27854919433594)" width="1.520242" x="246.24389" y="246.398922"></rect>
+  <ellipse cx="318.999996" cy="393.999999" fill="#ffffff" id="SvgjsEllipse1003" rx="46.499999" ry="46.499999" stroke="#38bdf8" stroke-width="34"></ellipse>
+  <ellipse cx="434.499996" cy="65.499999" fill="#ffffff" id="SvgjsEllipse1002" rx="46.499999" ry="46.499999" stroke="#38bdf8" stroke-width="34"></ellipse>
+  <ellipse cx="173.999996" cy="209.999999" fill="#ffffff" id="SvgjsEllipse1001" rx="46.499999" ry="46.499999" stroke="#38bdf8" stroke-width="34"></ellipse>
+  <ellipse cx="63.999996" cy="433.999999" fill="#ffffff" id="SvgjsEllipse1000" rx="46.499999" ry="46.499999" stroke="#38bdf8" stroke-width="34"></ellipse>
+ </g>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+@media (prefers-color-scheme: dark) { :root { filter: none; } }
+</style></svg>
