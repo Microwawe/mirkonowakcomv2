@@ -26,6 +26,8 @@
 							:key="link.site"
 							:href="link.url"
 							:title="link.site"
+							target="_blank"
+							rel="noopener noreferrer"
 						>
 							<div
 								class="transition-colors duration-200  child:h-5 child:w-5 hover:text-sky-500 dark:hover:text-orange-400 focus:text-sky-500 dark:focus:text-orange-400"

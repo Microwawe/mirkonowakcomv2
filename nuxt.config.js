@@ -112,6 +112,7 @@ export default {
 		'@nuxt/content',
 		'@nuxtjs/color-mode',
 		'@nuxtjs/axios',
+		'vue-plausible',
 	],
 
 	// Content module configuration: https://go.nuxtjs.dev/config-content
@@ -128,6 +129,10 @@ export default {
 
 	tailwindcss: {
 		configPath: '~/tailwind.config.js',
+	},
+
+	plausible: {
+		domain: 'mirkonowak.com'
 	},
 
 	colorMode: {

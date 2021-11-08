@@ -19,6 +19,8 @@
 				<a
 					href="https://www.instagram.com/nnowwakk/"
 					title="My Instagram profile"
+					target="_blank"
+					rel="noopener noreferrer"
 					class="font-semibold  text-sky-600 dark:text-orange-400 hover:underline focus:underline"
 				>
 					my Instagram
