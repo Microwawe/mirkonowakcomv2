@@ -78,6 +78,14 @@ export default {
 				href: 'https://mirkonowak.com',
 			},
 		],
+		script: [
+			{
+				'src': 'https://plausible.io/js/plausible.outbound-links.js',
+				async: true,
+				defer: true,
+				'data-domain': 'mirkonowak.com'
+			}
+		]
 	},
 
 	// Global CSS: https://go.nuxtjs.dev/config-css
@@ -112,7 +120,6 @@ export default {
 		'@nuxt/content',
 		'@nuxtjs/color-mode',
 		'@nuxtjs/axios',
-		'vue-plausible',
 	],
 
 	// Content module configuration: https://go.nuxtjs.dev/config-content

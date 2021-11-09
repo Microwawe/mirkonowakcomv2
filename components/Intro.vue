@@ -52,7 +52,7 @@
 						src="~assets/images/nowakmirko_400x400.jpg"
 						alt="A picture of Mirko Nowak"
 					/>
-					<h1 class="mb-4 text-5xl font-bold leading-none md:text-7xl">Mirko Nowak</h1>
+					<h1 class="mb-1 text-5xl font-bold leading-none md:text-7xl">Mirko Nowak</h1>
 					<span
 						class="
 							text-2xl

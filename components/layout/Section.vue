@@ -4,11 +4,31 @@
 			<div class="grid gap-4 mx-4 sm:grid-cols-12">
 				<div class="col-span-12 sm:col-span-3">
 					<div
-						class="text-center  sm:text-left mb-14 before:block before:w-24 before:h-3 before:mb-4 before:rounded-md before:bg-sky-400 dark:before:bg-orange-400 before:mx-auto sm:before:mx-0"
+						class="
+							text-center
+							sm:sticky sm:top-28 sm:text-left
+							mb-14
+							before:block
+							before:w-24
+							before:h-3
+							before:mb-4
+							before:rounded-md
+							before:bg-sky-400
+							dark:before:bg-orange-400
+							before:mx-auto
+							sm:before:mx-0
+						"
 					>
 						<h3 class="text-3xl font-semibold">{{ title }}</h3>
 						<span
-							class="text-sm font-bold tracking-wider uppercase  text-blueGray-500 dark:text-blueGray-400"
+							class="
+								text-sm
+								font-bold
+								tracking-wider
+								uppercase
+								text-blueGray-500
+								dark:text-blueGray-400
+							"
 						>
 							{{ subtitle }}
 						</span>
