@@ -32,12 +32,12 @@
 	{
 		"public": true,
 		"title": "Portfolio",
-		"description": "This website! Which also happens to be the fourth iteration of my own personal portfolio.",
+		"description": "This website! Which also happens to be the second iteration of my own personal portfolio.",
 		"img": "nowak_logo.png",
 		"demoUrl": "https://mirkonowak.com",
-		"codeUrl": "https://github.com/Microwawe",
+		"codeUrl": "https://github.com/Microwawe/mirkonowakcomv2",
 		"technologies": ["Nuxt.js", "Tailwind CSS"],
-		"repository": "Microwawe.github.io"
+		"repository": "mirkonowakcomv2"
 	},
 	{
 		"public": false,
