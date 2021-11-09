@@ -2,9 +2,8 @@
 	<div
 		class="
 			col-span-12
-			space-y-12
+			space-y-16
 			relative
-			px-4
 			sm:col-span-8
 			sm:space-y-8
 			sm:after:absolute
@@ -26,13 +25,13 @@
 				sm:after:w-6
 				sm:after:h-6
 				sm:after:rounded-full
-				sm:after:left-[-59px]
+				sm:after:left-[-43px]
 				sm:after:bg-sky-400
 				sm:dark:after:bg-orange-400
 				sm:after:z-[1]
 			"
 		>
-			<h3 class="text-xl font-semibold tracking-wide">{{ item.title }}</h3>
+			<h3 class="text-2xl font-semibold tracking-wide">{{ item.title }}</h3>
 			<span class="font-semibold tracking-wide text-sky-600 dark:text-orange-400">
 				{{ item.subtitle }}
 			</span>
