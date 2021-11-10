@@ -38,18 +38,20 @@
 						dark:bg-blueGray-900
 					"
 				>
-					<img
+					<NuxtImg
 						class="
 							flex-shrink-0
-							w-48
-							h-48
+							w-40
 							mb-6
 							-mt-24
 							rounded-full
 							shadow-sm
+							h-w-40
+							sm:w-48 sm:h-48
 							bg-blueGray-500
 						"
-						src="~assets/images/nowakmirko_400x400.jpg"
+						src="/images/nowakmirko_400x400.jpg"
+						sizes="sm:160px xxl:200px"
 						alt="A picture of Mirko Nowak"
 					/>
 					<h1 class="mb-1 text-5xl font-bold leading-none md:text-7xl">Mirko Nowak</h1>

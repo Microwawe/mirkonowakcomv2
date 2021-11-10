@@ -3,18 +3,37 @@
 		<div class="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
 			<nuxt-link
 				:to="{ name: 'blog-slug', params: { slug: featured.slug } }"
-				class="block gap-3 mx-auto rounded-sm shadow-sm  group hover:no-underline focus:no-underline md:grid md:grid-cols-12 bg-blueGray-50 dark:bg-blueGray-900"
+				class="
+					block
+					gap-3
+					mx-auto
+					rounded-sm
+					shadow-sm
+					group
+					hover:no-underline
+					focus:no-underline
+					md:grid md:grid-cols-12
+					bg-blueGray-50
+					dark:bg-blueGray-900
+				"
 			>
 				<div class="aspect-w-16 aspect-h-9 md:col-span-7">
-					<img
+					<NuxtImg
 						:src="getCoverImage(featured.img)"
 						role="presentation"
+						sizes="sm:360px md:640px"
 						class="object-cover bg-blueGray-500"
 					/>
 				</div>
 				<div class="flex flex-col h-full p-6 md:col-span-5">
 					<h3
-						class="text-2xl font-semibold  sm:text-4xl group-hover:underline group-focus:underline"
+						class="
+							text-2xl
+							font-semibold
+							sm:text-4xl
+							group-hover:underline
+							group-focus:underline
+						"
 					>
 						{{ featured.title }}
 					</h3>
@@ -35,18 +54,34 @@
 					v-for="post in posts"
 					:key="post.slug"
 					:to="{ name: 'blog-slug', params: { slug: post.slug } }"
-					class="flex flex-col rounded-sm shadow-sm  group hover:no-underline focus:no-underline bg-blueGray-50 dark:bg-blueGray-900"
+					class="
+						flex flex-col
+						rounded-sm
+						shadow-sm
+						group
+						hover:no-underline
+						focus:no-underline
+						bg-blueGray-50
+						dark:bg-blueGray-900
+					"
 				>
 					<div class="aspect-w-16 aspect-h-9">
-						<img
+						<NuxtImg
 							:src="getCoverImage(post.img)"
 							role="presentation"
+							sizes="xxl:360px"
 							class="object-cover shadow-sm bg-blueGray-500"
 						/>
 					</div>
 					<div class="flex flex-col flex-1 p-6">
 						<h3
-							class="mb-1 text-2xl font-semibold  group-hover:underline group-focus:underline"
+							class="
+								mb-1
+								text-2xl
+								font-semibold
+								group-hover:underline
+								group-focus:underline
+							"
 						>
 							{{ post.title }}
 						</h3>
@@ -72,7 +107,6 @@
 </template>
 
 <script lang="ts">
-import { IContentDocument } from '@nuxt/content/types/content';
 import Vue from 'vue';
 
 export default Vue.extend({
@@ -154,16 +188,13 @@ export default Vue.extend({
 	},
 	methods: {
 		getCoverImage(imageStr: string) {
-			try {
-				return require(`~/assets/images/blog/${imageStr}`);
-			} catch (error) {
-				return require('~/assets/images/blog/default.png');
-			}
-		},
-		calculateReadTime(doc: IContentDocument) {
-			doc.body.children.forEach((child: any) => {
-				console.log(child);
-			});
+			return imageStr ? `/images/blog/${imageStr}` : '/images/blog/default.png';
+			// try {
+			// 	return require(`/images/blog/${imageStr}`);
+			// } catch (error) {
+			// 	// eslint-disable-next-line import/no-absolute-path
+			// 	return require('/images/blog/default.png');
+			// }
 		},
 	},
 });

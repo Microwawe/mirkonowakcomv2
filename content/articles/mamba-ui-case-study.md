@@ -2,6 +2,7 @@
 title: The story of Mamba UI
 description: 'A case study of why and how I built Mamba UI, my very own Tailwind CSS component library.'
 createdAt: 2021-10-30
+img: '2021-10-24-mamba-ui.png'
 tags:
   - 1
   - 2

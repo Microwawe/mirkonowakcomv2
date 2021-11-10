@@ -10,7 +10,7 @@
 		"
 	>
 		<div class="flex flex-col space-y-4 md:space-y-0 md:space-x-6 md:flex-row">
-			<img
+			<NuxtImg
 				src="https://source.unsplash.com/75x75/?portrait"
 				alt=""
 				class="

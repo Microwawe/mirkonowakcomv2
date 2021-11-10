@@ -83,9 +83,9 @@ export default {
 				'src': 'https://plausible.io/js/plausible.outbound-links.js',
 				async: true,
 				defer: true,
-				'data-domain': 'mirkonowak.com'
-			}
-		]
+				'data-domain': 'mirkonowak.com',
+			},
+		],
 	},
 
 	// Global CSS: https://go.nuxtjs.dev/config-css
@@ -105,13 +105,11 @@ export default {
 
 	// Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
 	buildModules: [
-		// https://go.nuxtjs.dev/typescript
 		'@nuxt/typescript-build',
-		// https://go.nuxtjs.dev/stylelint
 		'@nuxtjs/stylelint-module',
-		// https://go.nuxtjs.dev/tailwindcss
 		'@nuxtjs/tailwindcss',
 		'@nuxtjs/svg',
+		'@nuxt/image',
 	],
 
 	// Modules: https://go.nuxtjs.dev/config-modules
@@ -139,7 +137,11 @@ export default {
 	},
 
 	plausible: {
-		domain: 'mirkonowak.com'
+		domain: 'mirkonowak.com',
+	},
+
+	image: {
+
 	},
 
 	colorMode: {

@@ -16,9 +16,10 @@
 					"
 				>
 					<div class="aspect-w-16 aspect-h-9">
-						<img
+						<NuxtImg
 							:src="getCoverImage(project.img)"
-							alt=""
+							role="presentation"
+							sizes="sm:460px xxl:320px"
 							class="w-full h-full bg-blueGray-500"
 						/>
 					</div>
@@ -174,11 +175,7 @@ export default Vue.extend({
 	},
 	methods: {
 		getCoverImage(projectImageName: string) {
-			try {
-				return require(`~/assets/images/${projectImageName.toLowerCase()}`);
-			} catch (error) {
-				return require(`~/assets/images/nowak_logo.png`);
-			}
+			return projectImageName ? `/images/${projectImageName}` : '/images/nowak_logo.png';
 		},
 	},
 });
