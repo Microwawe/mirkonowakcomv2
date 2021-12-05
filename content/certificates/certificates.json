@@ -1,0 +1,27 @@
+[
+	{
+		"title": "Professional Scrum Master",
+		"icon": "PSM.svg",
+		"link": "https://www.scrum.org/professional-scrum-master-i-certification"
+	},
+	{
+		"title": "Professional Scrum Master II",
+		"icon": "PSM2.svg",
+		"link": "https://www.scrum.org/professional-scrum-master-ii-certification"
+	},
+	{
+		"title": "Professional Agile Leader",
+		"icon": "PAL.svg",
+		"link": "https://www.scrum.org/professional-agile-leadership-certification"
+	},
+	{
+		"title": "Professional Scrum Developer",
+		"icon": "PSD.svg",
+		"link": "https://www.scrum.org/professional-scrum-developer-certification"
+	},
+	{
+		"title": "Professional Scrum Product Owner",
+		"icon": "PSPO.svg",
+		"link": "https://www.scrum.org/professional-scrum-product-owner-i-certification"
+	}
+]

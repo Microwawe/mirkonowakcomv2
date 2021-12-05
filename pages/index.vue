@@ -2,12 +2,14 @@
 	<div class="">
 		<Intro />
 		<div
-			class=" child:even:bg-blueGray-100 child:odd:bg-blueGray-50 dark:child:even:bg-blueGray-800 dark:child:odd:bg-blueGray-900"
+			class="
+				child:even:bg-blueGray-100 child:odd:bg-blueGray-50
+				dark:child:even:bg-blueGray-800 dark:child:odd:bg-blueGray-900
+			"
 		>
 			<About />
 			<Projects :projects="projects" />
-
-			<!-- <Timeline :items="timeline" /> -->
+			<Certificates :certs="certs" />
 			<Career :items="work" />
 			<Education :items="school" />
 			<Contact />
@@ -23,6 +25,7 @@ export default Vue.extend({
 		const work = await $content('work')
 			.only(['title', 'subtitle', 'date', 'description'])
 			.fetch();
+		const certs = await $content('certificates').only(['title', 'icon', 'link']).fetch();
 		const school = await $content('school')
 			.only(['title', 'subtitle', 'date', 'description'])
 			.fetch();
@@ -54,8 +57,7 @@ export default Vue.extend({
 			}
 			return project;
 		});
-		console.log(projects);
-		return { work, school, projects };
+		return { work, school, projects, certs };
 	},
 });
 </script>

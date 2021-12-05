@@ -1,10 +1,10 @@
 <template>
-	<div class="justify-center p-6 pt-24">
+	<div class="justify-center p-6 py-16">
 		<div id="contact" class="container max-w-5xl mx-auto">
 			<div
 				class="mx-4 mb-4 text-center  sm:text-left before:block before:w-24 before:h-3 before:mb-4 before:rounded-md before:bg-sky-400 dark:before:bg-orange-400 before:mx-auto sm:before:mx-0"
 			>
-				<h3 class="text-3xl font-semibold">Let's get in touch!</h3>
+				<h2 class="text-3xl font-semibold">Let's get in touch!</h2>
 			</div>
 			<div class="grid grid-cols-1 gap-6 mx-4 md:grid-cols-2">
 				<div class="py-6">
@@ -15,7 +15,7 @@
 							:href="link.url"
 							target="_blank"
 							rel="noreferrer"
-							class="flex items-center justify-center w-full p-4 space-x-2 no-underline transition duration-300 ease-in-out  bg-blueGray-100 dark:bg-blueGray-800 hover:shadow-md rounded-xl hover:font-semibold focus:font-semibold focus:bg-sky-500 focus:text-blueGray-100 hover:text-blueGray-100 dark:focus:bg-orange-400 hover:bg-sky-500 dark:focus:text-blueGray-800 dark:hover:text-blueGray-800 dark:hover:bg-orange-400 focus:outline-none focus:ring-2 focus:ring-blueGray-50"
+							class="flex items-center justify-center w-full p-4 space-x-2 no-underline transition duration-300 ease-in-out  bg-blueGray-50 dark:bg-blueGray-900 hover:shadow-md rounded-xl hover:font-semibold focus:font-semibold focus:bg-sky-500 focus:text-blueGray-100 hover:text-blueGray-100 dark:focus:bg-orange-400 hover:bg-sky-500 dark:focus:text-blueGray-800 dark:hover:text-blueGray-800 dark:hover:bg-orange-400 focus:outline-none focus:ring-2 focus:ring-blueGray-50"
 						>
 							<div
 								class="child:h-5 child:w-5"

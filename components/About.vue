@@ -2,32 +2,71 @@
 	<Section :title="title" :subtitle="subtitle">
 		<template #content>
 			<p>
-				Hi! I'm a professional full-stack web developer and a scrum master from Helsinki,
-				Finland. I have a few years of experience in national projects under my belt and I
-				enjoy solving problems and finding elegant solutions to complex issues.
-			</p>
-			<p>
-				I'm an analytical, innovative and a productive team player with a deep passion for
-				technology. I'm always eager to improve my knowledge especially about anything
-				related to web development. Most comfortable with Angular, Node.js and Java but also
-				willing to learn new technologies.
-			</p>
-			<p class="margin-b-50">
-				When I'm not working I'm most likely either travelling around the world, watching
-				NBA (go Mavericks) or photographing out in the nature. If you like wildlife photos
-				you can check out some of my shots on
+				Hi! I'm a
+				<nuxt-link
+					to="#Projects"
+					class="
+						font-semibold
+						hover:underline
+						focus:underline
+						text-sky-600
+						dark:text-orange-400
+					"
+				>
+					full-stack developer
+				</nuxt-link>
+				and a
+				<nuxt-link
+					to="#Certificates"
+					class="
+						font-semibold
+						hover:underline
+						focus:underline
+						text-sky-600
+						dark:text-orange-400
+					"
+					>certified scrum master</nuxt-link
+				>
+				from Helsinki, Finland. I'm currently working for
 				<a
-					href="https://www.instagram.com/nnowwakk/"
-					title="My Instagram profile"
+					href="https://www.cgi.com/fi/fi"
 					target="_blank"
 					rel="noopener noreferrer"
-					class="font-semibold  text-sky-600 dark:text-orange-400 hover:underline focus:underline"
+					class="
+						font-semibold
+						hover:underline
+						focus:underline
+						text-sky-600
+						dark:text-orange-400
+					"
+					>CGI Finland</a
 				>
-					my Instagram
-				</a>
-				.
+				and I have a few years of experience from various projects for the Finnish central
+				government under my belt. I enjoy solving problems and finding innovative solutions
+				to everyday problems. I'm most comfortable with Angular, Java, Node.js and Nuxt.js
+				but I'm also willing to learn new technologies.
 			</p>
-		</template>
+			<p
+				>Off the clock I'm an avid traveller, cold brew consumer, basketball enthusiast, a
+				soon-to-be dad (with the jokes and the body) and a hobbyist photographer. If you
+				like wildlife photos you can check out some of my shots on
+				<a
+					href="https://www.instagram.com/nnowwakk/"
+					title="my Instagram profile"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="
+						font-semibold
+						hover:underline
+						focus:underline
+						text-sky-600
+						dark:text-orange-400
+					"
+				>
+					my Instagram</a
+				>.
+			</p></template
+		>
 	</Section>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-	<section class="py-16">
+	<section :id="title" class="py-16">
 		<div class="container max-w-5xl mx-auto">
 			<div class="grid gap-4 mx-4 sm:grid-cols-12">
 				<div class="col-span-12 sm:col-span-3">
@@ -19,7 +19,7 @@
 							sm:before:mx-0
 						"
 					>
-						<h3 class="text-3xl font-semibold">{{ title }}</h3>
+						<h2 class="text-3xl font-semibold">{{ title }}</h2>
 						<span
 							class="
 								text-sm
