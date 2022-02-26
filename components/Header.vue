@@ -1,5 +1,5 @@
 <template>
-	<header class="sticky top-0 z-20 px-4 py-2 shadow-sm bg-blueGray-50 dark:bg-blueGray-900">
+	<header class="sticky top-0 z-20 px-4 py-2 shadow-md bg-blueGray-50 dark:bg-blueGray-900">
 		<div class="container flex justify-between h-16 max-w-5xl mx-auto">
 			<nuxt-link
 				:to="'/'"

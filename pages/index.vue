@@ -2,13 +2,10 @@
 	<div class="">
 		<Intro />
 		<div
-			class="
-				child:even:bg-blueGray-100 child:odd:bg-blueGray-50
-				dark:child:even:bg-blueGray-800 dark:child:odd:bg-blueGray-900
-			"
+			class=" child:even:bg-blueGray-100 child:odd:bg-blueGray-50 dark:child:even:bg-blueGray-800 dark:child:odd:bg-blueGray-900"
 		>
 			<About />
-			<Projects :projects="projects" />
+			<Projects :rawProjects="rawProjects" />
 			<Certificates :certs="certs" />
 			<Career :items="work" />
 			<Education :items="school" />
@@ -41,23 +38,8 @@ export default Vue.extend({
 				'repository',
 			])
 			.fetch();
-		const allRepos: any[] = await fetch(`https://api.github.com/users/microwawe/repos`).then(
-			response => response.json()
-		);
-		const projects = rawProjects.map((project: any) => {
-			if (project.repository) {
-				const projectRepo = allRepos.find(repo => repo.name === project.repository);
-				if (projectRepo != null) {
-					project.stars = projectRepo.stargazers_count;
-					return {
-						...project,
-						'stars': projectRepo.stargazers_count,
-					};
-				}
-			}
-			return project;
-		});
-		return { work, school, projects, certs };
+
+		return { work, school, certs, rawProjects };
 	},
 });
 </script>

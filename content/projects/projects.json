@@ -24,14 +24,14 @@
 		"title": "Kaljakartta",
 		"description": "A Google Maps -based search-engine for beer lovers",
 		"img": "kaljakartta.png",
-		"demoUrl": "https://mirkonowak.be",
+		"demoUrl": "https://kaljakartta-archive.vercel.app/",
 		"codeUrl": "https://github.com/Microwawe/kaljakartta-archive",
 		"technologies": ["Javascript", "Java"],
 		"repository": ""
 	},
 	{
 		"public": true,
-		"title": "Portfolio",
+		"title": "Portfolio v2",
 		"description": "This website! Which also happens to be the second iteration of my own personal portfolio.",
 		"img": "nowak_logo.png",
 		"demoUrl": "https://mirkonowak.com",
@@ -41,22 +41,32 @@
 	},
 	{
 		"public": false,
+		"title": "Portfolio v1",
+		"description": "The very first version of my own website. A basic static website with just HTML and CSS.",
+		"img": "nowak_logo.png",
+		"demoUrl": "https://mirkonowakcomv1.vercel.app/",
+		"codeUrl": "https://github.com/Microwawe/mirkonowakcomv1",
+		"technologies": ["HTML", "CSS"],
+		"repository": "mirkonowakcomv1"
+	},
+	{
+		"public": true,
 		"title": "Titanic",
 		"description": "A website for the Titanic-cruise ",
 		"img": "titanic.png",
-		"demoUrl": "https://titanic-cruise-rvrmq.ondigitalocean.app/",
+		"demoUrl": "https://titanic-eosin.vercel.app/",
 		"codeUrl": "https://github.com/Microwawe/Titanic",
 		"technologies": ["jQuery", "Javascript", "PHP", "MySQL"],
 		"repository": "Titanic"
 	},
 	{
-		"public": false,
+		"public": true,
 		"title": "Minesweeper",
 		"description": "Small and simple minesweeper game ",
 		"img": "minesweeper.png",
-		"demoUrl": "https://minesweeper-3rd8b.ondigitalocean.app/",
+		"demoUrl": "https://minesweeper-orcin.vercel.app",
 		"codeUrl": "https://github.com/Microwawe/Minesweeper",
-		"technologies": ["HTML, CSS, Javascript"],
+		"technologies": ["HTML", "CSS", "Javascript"],
 		"repository": "Minesweeper"
 	},
 	{

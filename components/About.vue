@@ -5,26 +5,14 @@
 				Hi! I'm a
 				<nuxt-link
 					to="#Projects"
-					class="
-						font-semibold
-						hover:underline
-						focus:underline
-						text-sky-600
-						dark:text-orange-400
-					"
+					class="font-semibold  hover:underline focus-visible:underline text-sky-600 dark:text-orange-400"
 				>
 					full-stack developer
 				</nuxt-link>
 				and a
 				<nuxt-link
 					to="#Certificates"
-					class="
-						font-semibold
-						hover:underline
-						focus:underline
-						text-sky-600
-						dark:text-orange-400
-					"
+					class="font-semibold  hover:underline focus-visible:underline text-sky-600 dark:text-orange-400"
 					>certified scrum master</nuxt-link
 				>
 				from Helsinki, Finland. I'm currently working for
@@ -32,13 +20,7 @@
 					href="https://www.cgi.com/fi/fi"
 					target="_blank"
 					rel="noopener noreferrer"
-					class="
-						font-semibold
-						hover:underline
-						focus:underline
-						text-sky-600
-						dark:text-orange-400
-					"
+					class="font-semibold  hover:underline focus-visible:underline text-sky-600 dark:text-orange-400"
 					>CGI Finland</a
 				>
 				and I have a few years of experience from various projects for the Finnish central
@@ -48,20 +30,14 @@
 			</p>
 			<p
 				>Off the clock I'm an avid traveller, cold brew consumer, basketball enthusiast, a
-				soon-to-be dad (with the jokes and the body) and a hobbyist photographer. If you
-				like wildlife photos you can check out some of my shots on
+				dad (with the jokes and the body) and a hobbyist photographer. If you like wildlife
+				photos you can check out some of my shots on
 				<a
 					href="https://www.instagram.com/nnowwakk/"
 					title="my Instagram profile"
 					target="_blank"
 					rel="noopener noreferrer"
-					class="
-						font-semibold
-						hover:underline
-						focus:underline
-						text-sky-600
-						dark:text-orange-400
-					"
+					class="font-semibold  hover:underline focus-visible:underline text-sky-600 dark:text-orange-400"
 				>
 					my Instagram</a
 				>.

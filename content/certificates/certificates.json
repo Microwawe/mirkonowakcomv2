@@ -23,5 +23,10 @@
 		"title": "Professional Scrum Product Owner",
 		"icon": "PSPO.svg",
 		"link": "https://www.scrum.org/professional-scrum-product-owner-i-certification"
+	},
+	{
+		"title": "Professional Scrum Product Owner II",
+		"icon": "PSPO2.svg",
+		"link": "https://www.scrum.org/professional-scrum-certifications/professional-scrum-product-owner-ii-assessment"
 	}
 ]
