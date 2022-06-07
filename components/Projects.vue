@@ -137,6 +137,7 @@ export default Vue.extend({
 			return project;
 		});
 	},
+	fetchOnServer: false,
 	methods: {
 		getCoverImage(projectImageName: string) {
 			return projectImageName ? `/images/${projectImageName}` : '/images/nowak_logo.png';
