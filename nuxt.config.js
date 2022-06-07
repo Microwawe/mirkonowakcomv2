@@ -3,7 +3,7 @@ export default {
 	target: 'static',
 	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
-		title: 'Mirko Nowak | Front-end Developer | Scrum Master',
+		title: 'Mirko Nowak | Full-stack Developer | Scrum Master',
 		htmlAttrs: {
 			lang: 'en',
 		},
@@ -14,7 +14,7 @@ export default {
 			{
 				hid: 'description',
 				name: 'description',
-				content: 'Front-end developer, scrum master and a hobbyist photographer.',
+				content: 'Full-stack developer, scrum master and a hobbyist photographer.',
 			},
 			{ property: 'og:site_name', content: 'Mirko Nowak' },
 			{ hid: 'og:type', property: 'og:type', content: 'website' },
@@ -26,17 +26,17 @@ export default {
 			{
 				hid: 'og:title',
 				property: 'og:title',
-				content: 'My Amazing Blog on The Joy of Painting',
+				content: 'Mirko Nowak',
 			},
 			{
 				hid: 'og:description',
 				property: 'og:description',
-				content: 'Front-end developer, scrum master and a hobbyist photographer.',
+				content: 'Full-stack developer, scrum master and a hobbyist photographer.',
 			},
 			{
 				hid: 'og:image',
 				property: 'og:image',
-				content: '/a-lovely-image.png',
+				content: '/images/nowak_logo.png',
 			},
 			{ property: 'og:image:width', content: '740' },
 			{ property: 'og:image:height', content: '300' },
@@ -51,17 +51,17 @@ export default {
 			{
 				hid: 'twitter:title',
 				name: 'twitter:title',
-				content: 'My Amazing Blog on The Joy of Painting',
+				content: 'Mirko Nowak',
 			},
 			{
 				hid: 'twitter:description',
 				name: 'twitter:description',
-				content: 'Front-end developer, scrum master and a hobbyist photographer.',
+				content: 'Full-stack developer, scrum master and a hobbyist photographer.',
 			},
 			{
 				hid: 'twitter:image',
 				name: 'twitter:image',
-				content: '/a-lovely-image.png',
+				content: '/images/nowak_logo.png',
 			},
 			{
 				hid: 'canonical',
@@ -140,9 +140,7 @@ export default {
 		domain: 'mirkonowak.com',
 	},
 
-	image: {
-
-	},
+	image: {},
 
 	colorMode: {
 		preference: 'dark', // default value of $colorMode.preference
