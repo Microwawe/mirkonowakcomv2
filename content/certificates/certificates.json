@@ -1,5 +1,15 @@
 [
 	{
+		"title": "SAFe Release Train Engineer",
+		"icon": "rte.svg",
+		"link": "https://scaledagile.com/training/safe-release-train-engineer/"
+	},
+	{
+		"title": "SAFe Advanced Scrum Master",
+		"icon": "sasm.svg",
+		"link": "https://scaledagile.com/training/safe-advanced-scrum-master/"
+	},
+	{
 		"title": "Professional Scrum Master",
 		"icon": "PSM.svg",
 		"link": "https://www.scrum.org/professional-scrum-master-i-certification"

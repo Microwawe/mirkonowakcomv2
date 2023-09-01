@@ -4,7 +4,6 @@ export default (context: any, inject: any) => {
 			const words = post.body.children
 				.map((el: any) => parseAndCalcWords(el))
 				.reduce((acc: number, curr: number) => acc + curr, 0);
-			console.log(words);
 			const readTime = Math.floor(words / wordsPerMinute) + 1;
 			return {
 				...post,

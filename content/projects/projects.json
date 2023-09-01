@@ -30,7 +30,7 @@
 		"repository": ""
 	},
 	{
-		"public": true,
+		"public": false,
 		"title": "Portfolio v2",
 		"description": "This website! Which also happens to be the second iteration of my own personal portfolio.",
 		"img": "nowak_logo.png",
@@ -60,7 +60,7 @@
 		"repository": "Titanic"
 	},
 	{
-		"public": true,
+		"public": false,
 		"title": "Minesweeper",
 		"description": "Small and simple minesweeper game ",
 		"img": "minesweeper.png",

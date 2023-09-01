@@ -2,10 +2,13 @@
 	<div class="">
 		<Intro />
 		<div
-			class=" child:even:bg-blueGray-100 child:odd:bg-blueGray-50 dark:child:even:bg-blueGray-800 dark:child:odd:bg-blueGray-900"
+			class="
+				child:even:bg-blueGray-100 child:odd:bg-blueGray-50
+				dark:child:even:bg-blueGray-800 dark:child:odd:bg-blueGray-900
+			"
 		>
 			<About />
-			<Projects :rawProjects="rawProjects" />
+			<Projects :raw-projects="rawProjects" />
 			<Certificates :certs="certs" />
 			<Career :items="work" />
 			<Education :items="school" />

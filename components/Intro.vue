@@ -42,11 +42,11 @@
 						class="
 							flex-shrink-0
 							w-40
+							h-40
 							mb-6
 							-mt-24
 							rounded-full
 							shadow-sm
-							h-w-40
 							sm:w-48 sm:h-48
 							bg-blueGray-500
 						"

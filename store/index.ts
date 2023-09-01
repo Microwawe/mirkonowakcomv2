@@ -36,11 +36,5 @@ export const state = () => ({
 		// 	'username': '@nnowwakk',
 		// 	'url': 'https://hashnode.com/@nnowwakk/',
 		// },
-		// {
-		// 	'site': 'Email',
-		// 	'icon': 'email',
-		// 	'username': 'mirko@mirkonowak.com',
-		// 	'url': 'mailto:mirko@mirkonowak.com',
-		// },
 	],
 });
