@@ -1,6 +1,6 @@
 export default {
 	// Target: https://go.nuxtjs.dev/config-target
-	target: 'static',
+	target: 'server',
 	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
 		title: 'Mirko Nowak | Full-stack Developer | Scrum Master',
@@ -109,7 +109,6 @@ export default {
 		'@nuxtjs/stylelint-module',
 		'@nuxtjs/tailwindcss',
 		'@nuxtjs/svg',
-		'@nuxt/image',
 	],
 
 	// Modules: https://go.nuxtjs.dev/config-modules
@@ -118,6 +117,7 @@ export default {
 		'@nuxt/content',
 		'@nuxtjs/color-mode',
 		'@nuxtjs/axios',
+		'@nuxt/image',
 	],
 
 	// Content module configuration: https://go.nuxtjs.dev/config-content
